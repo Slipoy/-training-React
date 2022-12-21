@@ -1,0 +1,48 @@
+.container {
+  padding: 1.5rem;
+  display: flex;
+}
+.container .logo {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 1rem;
+}
+.container .logo img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.container .logo span {
+  font-weight: 600;
+}
+.container .right {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.container .right .menu {
+  display: flex;
+  gap: 2rem;
+  font-weight: 500;
+  list-style: none;
+}
+.container .right .menu li:hover {
+  color: #FE956F;
+  cursor: pointer;
+}
+.container .right .search {
+  width: 7rem;
+  outline: none;
+  border: none;
+  height: 30%;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+.container .right .cart {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=header.module.css.map */
