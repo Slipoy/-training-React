@@ -59,7 +59,7 @@ const Hero =()=>{
                 </div>
                 <div className={style.customers}>
                     <span className={style.customersCount}>100k</span>
-                    <span>Happy custom</span>
+                    <span>Happy custom TEST</span>
 
                 </div>
 
